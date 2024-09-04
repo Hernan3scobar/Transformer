@@ -1,1 +1,5 @@
-# Transformer
+# Transformers and Vision Transformers (ViT)
+
+Transformers have revolutionized the field of natural language processing (NLP) since their introduction in 2017 by Vaswani et al. The key innovation of the transformer architecture is the self-attention mechanism, which allows the model to weigh the importance of different words in a sentence relative to each other, enabling better understanding of context. Transformers have been the backbone of numerous state-of-the-art models in NLP, such as BERT and GPT, and their success has inspired researchers to explore their potential in other domains.
+
+Vision Transformers (ViT) represent a significant advancement in applying the transformer architecture to image classification tasks, traditionally dominated by convolutional neural networks (CNNs). The Vision Transformer was introduced in 2020 by Dosovitskiy et al., who proposed a model that treats images as sequences of patches, akin to the way words are treated in a sentence in NLP. By leveraging self-attention, ViTs can capture long-range dependencies in images, often achieving performance comparable to or surpassing that of CNNs, especially when trained on large datasets.
